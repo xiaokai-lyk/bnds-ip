@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>ae1b5272-66fc-4c55-86f1-35d8054e81be</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>queryRelationships.py</StartupFile>
+    <StartupFile>main.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,10 +22,22 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="queryRelationships.py" />
+    <Compile Include="main.py" />
+    <Compile Include="units\dataProcess.py" />
+    <Compile Include="units\model.py" />
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="Global|PythonCore|3.12" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="dataset\" />
+    <Folder Include="units\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="dataset\example_pred.json" />
+    <Content Include="dataset\KUAKE-QQR_dev.json" />
+    <Content Include="dataset\KUAKE-QQR_test.json" />
+    <Content Include="dataset\KUAKE-QQR_train.json" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
