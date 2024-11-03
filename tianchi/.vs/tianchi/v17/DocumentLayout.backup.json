@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\python-development\\bnds-ip\\tianchi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AE1B5272-66FC-4C55-86F1-35D8054E81BE}|queryRelationships\\queryRelationships.pyproj|E:\\python-development\\bnds-ip\\tianchi\\queryRelationships\\queryRelationships.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{AE1B5272-66FC-4C55-86F1-35D8054E81BE}|queryRelationships\\queryRelationships.pyproj|solutionrelative:queryRelationships\\queryRelationships.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "queryRelationships.py",
+              "DocumentMoniker": "E:\\python-development\\bnds-ip\\tianchi\\queryRelationships\\queryRelationships.py",
+              "RelativeDocumentMoniker": "queryRelationships\\queryRelationships.py",
+              "ToolTip": "E:\\python-development\\bnds-ip\\tianchi\\queryRelationships\\queryRelationships.py",
+              "RelativeToolTip": "queryRelationships\\queryRelationships.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-02T14:19:12.209Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
