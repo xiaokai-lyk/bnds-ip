@@ -13,7 +13,7 @@ namespace Main
 {
     public partial class QueryRelationship
     {
-        public const string RetrainFilePath =  @"F:\bnds-ip\tianchi\queryRelationships\dataset\KUAKE-QQR_dev.csv";
+        public const string RetrainFilePath =  @"F:\bnds-ip\tianchi\queryRelationships\dataset\KUAKE-QQR_train.csv";
         public const char RetrainSeparatorChar = ',';
         public const bool RetrainHasHeader =  true;
         public const bool RetrainAllowQuoting =  true;

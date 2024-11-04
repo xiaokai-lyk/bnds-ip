@@ -36,9 +36,12 @@
     <Folder Include="units\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="dataset\example_pred.csv" />
     <Content Include="dataset\example_pred.json" />
+    <Content Include="dataset\KUAKE-QQR_dev.csv" />
     <Content Include="dataset\KUAKE-QQR_dev.json" />
     <Content Include="dataset\KUAKE-QQR_test.json" />
+    <Content Include="dataset\KUAKE-QQR_train.csv" />
     <Content Include="dataset\KUAKE-QQR_train.json" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
