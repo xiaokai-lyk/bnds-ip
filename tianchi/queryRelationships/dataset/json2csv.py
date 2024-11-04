@@ -1,5 +1,5 @@
 import json
-FILE_NAME="./KUAKE-QQR_train"
+FILE_NAME="./KUAKE-QQR_dev"
 f=open(FILE_NAME+".json",'r',encoding="utf-8")
 text=json.load(f)
 of=open(FILE_NAME+".csv",'w',encoding="utf-8")

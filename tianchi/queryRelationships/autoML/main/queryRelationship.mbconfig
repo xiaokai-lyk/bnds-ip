@@ -1,4 +1,62 @@
 ﻿{
+  "Scenario": "SentenceSimilarity",
+  "DataSource": {
+    "Version": 3,
+    "EscapeCharacter": "\"",
+    "ReadMultiLines": false,
+    "KeepDiacritics": false,
+    "KeepPunctuations": false,
+    "AllowQuoting": true,
+    "Type": "TabularFile",
+    "FilePath": "F:\\bnds-ip\\tianchi\\queryRelationships\\dataset\\KUAKE-QQR_train.csv",
+    "Delimiter": ",",
+    "DecimalMarker": ".",
+    "HasHeader": true,
+    "ColumnProperties": [
+      {
+        "ColumnName": "query1",
+        "ColumnPurpose": "SourceSentence",
+        "ColumnDataFormat": "String",
+        "IsCategorical": true,
+        "Type": "Column",
+        "Version": 5
+      },
+      {
+        "ColumnName": "query2",
+        "ColumnPurpose": "ComparisonSentence",
+        "ColumnDataFormat": "String",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 5
+      },
+      {
+        "ColumnName": "label",
+        "ColumnPurpose": "Label",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": true,
+        "Type": "Column",
+        "Version": 5
+      }
+    ]
+  },
+  "Environment": {
+    "Type": "LocalGPU",
+    "Version": 1
+  },
   "Type": "TrainingConfig",
-  "Version": 2
+  "Version": 5,
+  "TrainingOption": {
+    "Version": 1,
+    "Type": "SentenceSimilarityTrainingOption",
+    "TrainingTime": 10,
+    "LabelColumn": "label",
+    "SourceSentence": "query1",
+    "ComparisonSentence": "query2",
+    "Epoch": 1000,
+    "ValidationOption": {
+      "Version": 0,
+      "Type": "CrossValidationValidationOption",
+      "NumberOfFolds": 5
+    }
+  }
 }

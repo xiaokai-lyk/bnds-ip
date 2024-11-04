@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\python-development\\bnds-ip\\tianchi\\queryRelationships\\autoML\\main\\main.csproj": {}
+    "F:\\bnds-ip\\tianchi\\queryRelationships\\autoML\\main\\main.csproj": {}
   },
   "projects": {
-    "E:\\python-development\\bnds-ip\\tianchi\\queryRelationships\\autoML\\main\\main.csproj": {
+    "F:\\bnds-ip\\tianchi\\queryRelationships\\autoML\\main\\main.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\python-development\\bnds-ip\\tianchi\\queryRelationships\\autoML\\main\\main.csproj",
+        "projectUniqueName": "F:\\bnds-ip\\tianchi\\queryRelationships\\autoML\\main\\main.csproj",
         "projectName": "main",
-        "projectPath": "E:\\python-development\\bnds-ip\\tianchi\\queryRelationships\\autoML\\main\\main.csproj",
-        "packagesPath": "C:\\Users\\70662\\.nuget\\packages\\",
-        "outputPath": "E:\\python-development\\bnds-ip\\tianchi\\queryRelationships\\autoML\\main\\obj\\",
+        "projectPath": "F:\\bnds-ip\\tianchi\\queryRelationships\\autoML\\main\\main.csproj",
+        "packagesPath": "C:\\Users\\小锴的算力中心\\.nuget\\packages\\",
+        "outputPath": "F:\\bnds-ip\\tianchi\\queryRelationships\\autoML\\main\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\70662\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\小锴的算力中心\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -44,6 +44,20 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.ML": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Microsoft.ML.TorchSharp": {
+              "target": "Package",
+              "version": "[0.21.1, )"
+            },
+            "TorchSharp-cuda-windows": {
+              "target": "Package",
+              "version": "[0.101.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
